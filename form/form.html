@@ -1,28 +1,39 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>form</title>
-</head>
-<body>
-    <form>
-       name:         <input type="text" placeholder=" enter your fullname"><br><br>
-       Email:        <input type="email"placeholder=" enter yuor emailemail"><br><br>
-       phone Number: <input type="tel" placeholder="enter your phone number"><br><br>
-       Date Of Birth:<input type="date" placeholder="enter your Birth Date"><br><br>
-       Gender: Mail  <input type="radio" id="male" name="gender"value="male">
-       Femail<input type="radio" id="Female" name="gender"value="Female">
-        Other<input type="radio" id="other" name="gender"value="other"><br><br>
-        country:<select id="country" name="country">
-        <option value="India"> India</option>
-        <option value="Us">Us</option>
-        <option>Uk</option>
-        <option>Canada</option>
-        <option>austraila</option>
-       </select>
+<html>
+    <body>
+        <fieldset>
+            <form>
+                <lable for="one">name:</lable>
+                <input id="one" type="text" placeholder="Enter your name"/>
+                <br/>
+                <br/>
+                <span>number:</span>
+                <input type="number" placeholder="Enter your number">
+                <br/>
+                <lable for="DOB">date of birth:</lable>
+                <input type="date">
+                <br/>
+                <br/>
+                <span>male:</span>
+                <input name="one" type="radio"/>
+                <span>Female:</span>
+                <input name="one" type="radio"/>
+                <br/>
+                <br/>
+                <lable>password:</lable>
+                <input type="password" placeholder="password"/>
+                <br/>
+                <br/>
+                
+                <input type="file"/>
+                <select>
+                   <option>jabalpur</option> 
+                    <option>delhi</option>
+                    <option>mumbai</option>
+                    <option>pune</option>
+                    <option>jaipur</option>
+                </select>
 
-    </form>
-
-</body>
+            </form>
+        </fieldset>
+    </body>
 </html>
